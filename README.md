@@ -11,7 +11,7 @@
     Reach me out:<br>
       :briefcase: LinkedIn:  <a href="https://www.linkedin.com/company/cosmos-iitm/">LinkedIn Profile</a> <br>
       📱 Portfolio :  <a href="">Under Progress</a> <br>
-   GitHub Profile: <a href="https://github.com/EISHKARAN](https://github.com/iitmtechsociety"> Click</a><br><br>
+   GitHub Profile: <a href="https://github.com/iitmtechsociety"> Click</a><br><br>
 <img src="https://readme-jokes.vercel.app/api?theme=solidBlue" alt="Jokes Card" > <br>
 </samp>
 </p>
