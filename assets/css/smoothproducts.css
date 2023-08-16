@@ -3,6 +3,22 @@ html, body {
   width: 100%;
 }
 
+.card{
+  box-shadow: none;
+ border:0.1em solid #6866794d;
+ margin:1em 0;
+ transition:all ease-in 0.2s;
+}
+.card:hover{
+ transform:scale(1.1);
+ box-shadow: 0.3em 0.3em 0.7em 0.1em #959497;
+ border:0.1em solid #160be795;
+}
+
+/*  
+  box-shadow:0 0 1em 0.1em #1e1e219a;
+  border:0.1em solid #1d1b3c26; */
+}
 .sp-loading {
   text-align: center;
   max-width: 270px;
@@ -172,4 +188,3 @@ html, body {
     bottom: 25px;
   }
 }
-

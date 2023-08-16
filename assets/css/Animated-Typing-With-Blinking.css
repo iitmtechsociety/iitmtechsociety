@@ -84,21 +84,20 @@
 .col-lg-12.d-lg-flex.justify-content-lg-center.align-items-lg-center {
 }
 
-@keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
-}
+
 
 .fa-stack {
-  color: rgb(1,6,27);
+  padding: 0%;
+  border: 0.5px solid rgb(43, 43, 44);
+  border-radius: 50%;
+  color: rgb(33, 41, 75);
 }
 
 span:hover {
   color: rgb(1,6,27,0.7);
 }
 
-a {
+a:not(.footer,.nav-link) {
   color: rgb(33,37,41)!important;
 }
 
