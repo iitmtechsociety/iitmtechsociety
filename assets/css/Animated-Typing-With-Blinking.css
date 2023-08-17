@@ -88,13 +88,13 @@
 
 .fa-stack {
   padding: 0%;
-  border: 0.5px solid rgb(43, 43, 44);
+  border: 0.5px solid transparent;
   border-radius: 50%;
-  color: rgb(33, 41, 75);
+  color: rgb(4, 25, 119);
 }
 
 span:hover {
-  color: rgb(1,6,27,0.7);
+  color: rgba(33, 38, 61, 0.7);
 }
 
 a:not(.footer,.nav-link) {
