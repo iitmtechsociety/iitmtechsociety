@@ -3,16 +3,20 @@ html, body {
   width: 100%;
 }
 
+/* .icon-social-twitter, .icon-social-instagram, .icon-social-linkedin {
+  color: #fff;
+} */
+
 .card{
   box-shadow: none;
- border:0.1em solid #6866794d;
+ border:0.1em solid #0707074d;
  margin:1em 0;
  transition:all ease-in 0.2s;
 }
 .card:hover{
  transform:scale(1.1);
- box-shadow: 0.3em 0.3em 0.7em 0.1em #959497;
- border:0.1em solid #160be795;
+ box-shadow: 0.3em 0.3em 0.7em 0.1em #0a0a0a;
+ border:0.1em solid #7625f895;
 }
 
 /*  
