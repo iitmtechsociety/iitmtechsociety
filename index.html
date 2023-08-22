@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
-
-
-
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -23,6 +18,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <style>
+
+        /* This can make navbar appear as you touch scroll... don't remove it! */
+
+        .scrolled {
+            opacity: 1  !important;
+        }
+
+        /* ... */
         body {
             background-color: rgb(1, 2, 15);
             z-index: 0;
@@ -38,8 +41,7 @@
 
 <body class="">
     <!-- automatic navbar from boostrap -->
-    <nav class="navbar navbar-expand-lg fixed-top nabar-light navbar-dark"
-        style=" background-color: rgb(1, 2, 15); ">
+    <nav class="navbar navbar-expand-lg fixed-top nabar-light navbar-dark" style=" background-color: rgb(1, 2, 15); opacity: 0; ">
         <div class="container">
             <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png"
                     style=" width:90px; background: rgba(0,0,0,0);"></a>
@@ -155,7 +157,8 @@
 
 
             <br>
-            <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); text-align: center; font-weight: bolder;">COLLABORATED WITH</h4>
+            <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); text-align: center; font-weight: bolder;">
+                COLLABORATED WITH</h4>
             <br> <br>
 
 
@@ -257,9 +260,23 @@
         </div>
     </footer>
 
+<!-- script for scroll effect -->
 
+    <script>
+        var navbar = document.querySelector('nav')
 
+        window.onscroll = function () {
 
+            // pageYOffset or scrollY
+            if (window.pageYOffset > 0) {
+                navbar.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    </script>
+
+    <!-- ... -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
