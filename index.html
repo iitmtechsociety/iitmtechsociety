@@ -23,6 +23,11 @@
 
         .scrolled {
             opacity: 1  !important;
+            transition: 0.5s;
+        }
+        .unscrolled {
+            opacity: 0  !important;
+            transition: 0.5s;
         }
 
         /* ... */
@@ -270,8 +275,10 @@
             // pageYOffset or scrollY
             if (window.pageYOffset > 0) {
                 navbar.classList.add('scrolled')
+                navbar.classList.remove('unscrolled')
             } else {
                 navbar.classList.remove('scrolled')
+                navbar.classList.add('unscrolled')
             }
         }
     </script>
