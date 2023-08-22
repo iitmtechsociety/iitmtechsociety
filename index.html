@@ -26,7 +26,7 @@
             transition: 0.5s;
         }
         .unscrolled {
-            opacity: 0  !important;
+            opacity: 0.79  !important;
             transition: 0.5s;
         }
 
@@ -46,10 +46,10 @@
 
 <body class="">
     <!-- automatic navbar from boostrap -->
-    <nav class="navbar navbar-expand-lg fixed-top nabar-light navbar-dark" style=" background-color: rgb(1, 2, 15); opacity: 0; ">
+    <nav class="navbar navbar-expand-lg fixed-top nabar-light navbar-dark" style=" background-color: rgb(1, 2, 15); opacity: 0.79 ">
         <div class="container">
             <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png"
-                    style=" width:90px; background: rgba(0,0,0,0);"></a>
+                    style=" width:90px; opacity: 1; background: rgba(0,0,0,0);"></a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
                     navigation</span><span class="navbar-toggler-icon" style="opacity: 1;"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1" style="color: rgb(0, 0, 0);">
@@ -273,7 +273,7 @@
         window.onscroll = function () {
 
             // pageYOffset or scrollY
-            if (window.pageYOffset > 0) {
+            if (window.pageYOffset > 600) {
                 navbar.classList.add('scrolled')
                 navbar.classList.remove('unscrolled')
             } else {
