@@ -8,6 +8,10 @@ html, body {
   height: 100%;
   width: 100%;
 }
+#teams,#events,#home{
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
 .blob{
   position:absolute;
   z-index:0;
