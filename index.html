@@ -19,17 +19,23 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <style>
         html {
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
             scroll-behavior: smooth
         }
+
         /* This can make navbar appear as you touch scroll... don't remove it! */
         .scrolled {
             opacity: 1 !important;
             transition: 0.5s;
         }
+
         .unscrolled {
             opacity: 0.79 !important;
             transition: 0.5s;
         }
+
         /* ... */
         body {
             background-color: rgb(1, 2, 15);
@@ -41,13 +47,14 @@
         }
     </style>
 </head>
+
 <body class="" id="home">
     <!-- automatic navbar from boostrap -->
     <nav class="navbar navbar-expand-lg fixed-top nabar-light navbar-dark"
         style=" background-color: rgb(1, 2, 15); opacity: 0.8 ">
         <div class="container">
-            <a draggable="false" class="navbar-brand logo" href="index.html"><img draggable="false" src="assets/img/logo.png"
-                    style=" width:90px; opacity: 1; background: rgba(0,0,0,0);"></a>
+            <a draggable="false" class="navbar-brand logo" href="index.html"><img draggable="false"
+                    src="assets/img/logo.png" style=" width:90px; opacity: 1; background: rgba(0,0,0,0);"></a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
                     navigation</span><span class="navbar-toggler-icon" style="opacity: 1;"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1" style="color: rgb(1, 2, 15);">
@@ -60,8 +67,9 @@
                             style="font-size: 16px;color: rgb(255, 255, 255);">TEAM</a></li>
                     <li class="nav-item"><a draggable="false" class="nav-link text-light" href="events.html"
                             style="font-size: 16px;color: rgb(255, 255, 255);">EVENTS</a></li>
-                    <li class="nav-item"><a draggable="false" class="nav-link text-light" href="https://cosmos-iitm.medium.com/"
-                            target="_blank" style="font-size: 17px;color: rgb(255, 255, 255);">BLOG</a></li>
+                    <li class="nav-item"><a draggable="false" class="nav-link text-light"
+                            href="https://cosmos-iitm.medium.com/" target="_blank"
+                            style="font-size: 17px;color: rgb(255, 255, 255);">BLOG</a></li>
                     <li class="nav-item"><a draggable="false" class="nav-link text-light" target="_blank" href="#"
                             style="font-size: 16px;color: rgb(255, 255, 255);"><b><em>IN-TECH2023</em></b></a></li>
                     <!--    use to add more navbar elements -->
@@ -118,7 +126,9 @@
         <section class=""
             style="height: 95vh;width:100%;height: 100vh;overflow: hidden; position:sticky; z-index: 0; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <div style="position:fixed; text-align: center;overflow: hidden; ">
-                <img draggable="false" style="-webkit-filter: drop-shadow(5px 5px 5px #222);  -webkit-user-select: none; -ms-user-select: none; user-select: none; filter: drop-shadow(5px 5px 5px #222);" class="" src="assets/img/logo.png">
+                <img draggable="false"
+                    style="-webkit-filter: drop-shadow(5px 5px 5px #222);  -webkit-user-select: none; -ms-user-select: none; user-select: none; filter: drop-shadow(5px 5px 5px #222);"
+                    class="" src="assets/img/logo.png">
                 <!-- <h2 style="font-size: 120px; font-weight: 800; color: white;"></h2> -->
                 <p class=""
                     style="font-size: 23px; text-shadow: 5px 5px 5px #222;  -webkit-user-select: none; -ms-user-select: none; user-select: none; font-weight: 1000; color: rgb(255, 255, 255)">
@@ -145,41 +155,78 @@
                 <div class="col-md-10" style="align-items: center; text-align: center;">
                     <br>
                     <h5 style=" font-size: 26px ; color: rgb(255, 255, 255);">“Keep your Innovations close, but your
-                        Imaginations closer.” </h5><p style="font-size: 20px; color: rgb(236, 236, 236); font-weight: 500;  text-align:center"><br>- Members of Cosmos</p><br>
+                        Imaginations closer.” </h5>
+                    <p style="font-size: 20px; color: rgb(236, 236, 236); font-weight: 500;  text-align:center"><br>-
+                        Members of Cosmos</p><br>
                     <br> <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Foundation and Vision</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Foundation and Vision
+                    </h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500;  text-align: justify"><br>
-                        Cosmos was founded with a powerful vision in mind - to empower students with the technical prowess necessary to transcend entrenched boundaries. We believe that technology has the potential to drive positive change and innovation, and our mission is to equip students with the skills and mindset needed to be at the forefront of this transformation.</p>
+                        Cosmos was founded with a powerful vision in mind - to empower students with the technical
+                        prowess necessary to transcend entrenched boundaries. We believe that technology has the
+                        potential to drive positive change and innovation, and our mission is to equip students with the
+                        skills and mindset needed to be at the forefront of this transformation.</p>
                     <br> <br>
                     <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Who We Are</h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        We are a dynamic and vibrant community of tech enthusiasts. At Cosmos, we believe in fostering an environment where innovation, collaboration, and exploration thrive. Our members come from diverse backgrounds and disciplines, united by a shared passion for technology. We understand the importance of learning, growing, and pushing the boundaries of what's possible, and we are committed to supporting each other on this journey.</p>
+                        We are a dynamic and vibrant community of tech enthusiasts. At Cosmos, we believe in fostering
+                        an environment where innovation, collaboration, and exploration thrive. Our members come from
+                        diverse backgrounds and disciplines, united by a shared passion for technology. We understand
+                        the importance of learning, growing, and pushing the boundaries of what's possible, and we are
+                        committed to supporting each other on this journey.</p>
                     <br> <br>
                     <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">OUR OBJECTIVES</h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        One of our primary objectives is to provide a platform for students to explore their technical skills and interests. Through seminars, hands-on projects, and mentorship, we empower our members to delve into various domains of technology. We believe in broadening horizons and challenging the limits of knowledge, enabling our members to develop a comprehensive understanding of the tech landscape.</p>
+                        One of our primary objectives is to provide a platform for students to explore their technical
+                        skills and interests. Through seminars, hands-on projects, and mentorship, we empower our
+                        members to delve into various domains of technology. We believe in broadening horizons and
+                        challenging the limits of knowledge, enabling our members to develop a comprehensive
+                        understanding of the tech landscape.</p>
                     <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Collaboration and Networking</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Collaboration and
+                        Networking</h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        Cosmos is more than just a society; it's a community. We bring together like-minded individuals and organizations who share a deep passion for technology. Through workshops, hackathons, and networking events, we foster an environment of collaboration and knowledge-sharing. This vibrant ecosystem extends beyond our student body to include faculty and industry professionals, ensuring that our members have access to a wealth of expertise and experience.</p>
+                        Cosmos is more than just a society; it's a community. We bring together like-minded individuals
+                        and organizations who share a deep passion for technology. Through workshops, hackathons, and
+                        networking events, we foster an environment of collaboration and knowledge-sharing. This vibrant
+                        ecosystem extends beyond our student body to include faculty and industry professionals,
+                        ensuring that our members have access to a wealth of expertise and experience.</p>
                     <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Hackathons and Workshops</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Hackathons and
+                        Workshops</h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        We organize exciting hackathons and workshops that serve as catalysts for innovation. These events provide a platform for students to showcase their skills, collaborate on projects, and learn from technical wizards. By pushing the boundaries of creativity, our members develop problem-solving skills and gain hands-on experience that is invaluable in the real world.</p>
+                        We organize exciting hackathons and workshops that serve as catalysts for innovation. These
+                        events provide a platform for students to showcase their skills, collaborate on projects, and
+                        learn from technical wizards. By pushing the boundaries of creativity, our members develop
+                        problem-solving skills and gain hands-on experience that is invaluable in the real world.</p>
                     <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Impactful Projects</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Impactful Projects
+                    </h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        At Cosmos, we nurture creativity and innovation by encouraging our members to undertake impactful technical projects. From cutting-edge software applications to complex machine learning models, we provide the support and resources needed to bring these projects to life. Our goal is to create meaningful solutions that make a positive impact on IITM BS and inspire a passion for technology.</p>
+                        At Cosmos, we nurture creativity and innovation by encouraging our members to undertake
+                        impactful technical projects. From cutting-edge software applications to complex machine
+                        learning models, we provide the support and resources needed to bring these projects to life.
+                        Our goal is to create meaningful solutions that make a positive impact on IITM BS and inspire a
+                        passion for technology.</p>
                     <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Tech Competitions</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Tech Competitions
+                    </h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        Cosmos actively participates in tech competitions at various levels - regional, national, and international. We encourage our members to showcase their skills, knowledge, and innovative ideas through these competitions. By excelling in these events, we not only represent our society but also enhance our technical capabilities and bring recognition to our institution.</p>
+                        Cosmos actively participates in tech competitions at various levels - regional, national, and
+                        international. We encourage our members to showcase their skills, knowledge, and innovative
+                        ideas through these competitions. By excelling in these events, we not only represent our
+                        society but also enhance our technical capabilities and bring recognition to our institution.
+                    </p>
                     <br> <br>
-                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Promoting Technological Literacy</h4>
+                    <h4 style=" font-size: 26px ; color: rgb(255, 255, 255); font-weight: bolder;">Promoting
+                        Technological Literacy</h4>
                     <p style="font-size: 18px; color: rgb(255, 255, 255); font-weight: 500; text-align: justify;"><br>
-                        We are dedicated to promoting technology and fostering technological literacy. Beyond our immediate community, we engage with the larger society by organizing outreach programs, awareness campaigns, and initiatives aimed at enhancing technological understanding. <br><br>
-At Cosmos, we're not just shaping the future - we're living it. Join us on this exciting journey of exploration, innovation, and growth!
-</p>
+                        We are dedicated to promoting technology and fostering technological literacy. Beyond our
+                        immediate community, we engage with the larger society by organizing outreach programs,
+                        awareness campaigns, and initiatives aimed at enhancing technological understanding. <br><br>
+                        At Cosmos, we're not just shaping the future - we're living it. Join us on this exciting journey
+                        of exploration, innovation, and growth!
+                    </p>
                     <br> <br>
                 </div>
             </div>
@@ -189,15 +236,30 @@ At Cosmos, we're not just shaping the future - we're living it. Join us on this 
                 COLLABORATED WITH</h4>
             <br> <br>
             <div class="row justify-content-center" style="align-items: center; text-align: center;">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
-                <img draggable="false" src="assets\img\icon.png" style="height: 150px;margin: 20px;" alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
+                <img draggable="false" src="assets\img\icon.png"
+                    style="-webkit-user-select: none; -ms-user-select: none; user-select: none;height: 150px;margin: 20px;"
+                    alt="">
             </div>
         </div>
     </section>
@@ -212,11 +274,13 @@ At Cosmos, we're not just shaping the future - we're living it. Join us on this 
                     <!-- <h5 style=" text-align:center;color: rgb(255,255,255);font-size: 20px; font-weight: 500;">Contact us</h5> -->
                     <br>
                     <p style="font-size: 15px; color: rgb(255, 255, 255); font-weight: 500;">
-                        <i><a draggable="false" style="color: rgba(255, 255, 255, 0.938);" class="list-inline-item footer"
+                        <i><a draggable="false" style="color: rgba(255, 255, 255, 0.938);"
+                                class="list-inline-item footer"
                                 href="mailto:tech.society@study.iitm.ac.in">tech.society@study.iitm.ac.in</a> <br>
                             <br>Cosmos - Tech
-                            Society <br><a draggable="false" style="color: rgba(255, 255, 255, 0.938);" class="list-inline-item footer"
-                                href="https://www.iitm.ac.in/" target="_blank"> Indian Institute of Technology,
+                            Society <br><a draggable="false" style="color: rgba(255, 255, 255, 0.938);"
+                                class="list-inline-item footer" href="https://www.iitm.ac.in/" target="_blank"> Indian
+                                Institute of Technology,
                                 Madras</a> </i>
 
                 </div>
@@ -227,18 +291,19 @@ At Cosmos, we're not just shaping the future - we're living it. Join us on this 
                     <!-- <h5 class="text-center" style=" font-size: 20px ; color: rgb(255, 255, 255);">Contact us</h5> -->
                     <p style="font-size: 15px; color: rgb(255, 255, 255); font-weight: 500;">
                     <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a draggable="false" href="https://www.linkedin.com/company/iitmtechsociety/"
-                                target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        <li class="list-inline-item"><a draggable="false"
+                                href="https://www.linkedin.com/company/iitmtechsociety/" target="_blank"><span
+                                    class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
                                         class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a draggable="false" href="https://discord.gg/3DzutCdz" target="_blank"><span
-                                    class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        <li class="list-inline-item"><a draggable="false" href="https://discord.gg/3DzutCdz"
+                                target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
                                         class="fab fa-discord fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a draggable="false" href="http://instagram.com/cosmos_iitm" target="_blank"><span
-                                    class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        <li class="list-inline-item"><a draggable="false" href="http://instagram.com/cosmos_iitm"
+                                target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
                                         class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
 
-                        <li class="list-inline-item"><a draggable="false" href="https://github.com/iitmtechsociety" target="_blank"><span
-                                    class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        <li class="list-inline-item"><a draggable="false" href="https://github.com/iitmtechsociety"
+                                target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
                                         class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
                     </ul>
                     </p>
@@ -280,4 +345,5 @@ At Cosmos, we're not just shaping the future - we're living it. Join us on this 
     <script src="assets/js/blur3.js"></script>
     <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
 </body>
+
 </html>
