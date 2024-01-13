@@ -1,9 +1,30 @@
 
 
-
+* {
+  --len--: 242.776657104492px;
+  --time--: 1.6s;
+}
 *{
   transition:all ease-in 0.2s;
 }
+
+@keyframes anim {
+  12.5% {
+    stroke-dasharray: calc(var(--len--)*0.14), var(--len--);
+    stroke-dashoffset: calc(var(--len--)* -0.11);
+  }
+
+  43.75% {
+    stroke-dasharray: calc(var(--len--)*0.35), var(--len--);
+    stroke-dashoffset: calc(var(--len--)* -0.35);
+  }
+
+  100% {
+    stroke-dasharray: calc(var(--len--)*0.01), var(--len--);
+    stroke-dashoffset: calc(var(--len--)*-0.99);
+  }
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -12,6 +33,11 @@ html, body {
 #teams,#events,#home{
   overflow-y: hidden;
   scroll-behavior: smooth;
+}
+#outline {
+  stroke-dasharray: calc(var(--len--)*0.01), var(--len--);
+  stroke-dashoffset: 0;
+  animation: anim var(--time--) linear infinite;
 }
 
 .blob{
