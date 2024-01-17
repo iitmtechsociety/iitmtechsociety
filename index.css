@@ -5,3 +5,16 @@ html, body {
     flex-direction: column;
 }
 
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(26, 11, 59); 
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(60, 41, 90); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 3, 34); 
+}
